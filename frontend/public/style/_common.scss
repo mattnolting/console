@@ -136,7 +136,7 @@ dl.co-inline {
 }
 
 .cos-error-title {
-  color: $pf-color-red-100;
+  color: var(--pf-color-red-100);
 }
 
 .co-section-heading {
@@ -179,7 +179,7 @@ dl.co-inline {
 }
 
 .co-m-pane__explanation {
-  color: $pf-color-black-600;
+  color: var(--pf-color-black-600);
   margin-bottom: 30px;
 }
 
@@ -188,12 +188,12 @@ dl.co-inline {
 }
 
 .co-help-text {
-  color: $pf-color-black-600;
+  color: var(--$pf-color-black-600);
 }
 
 .co-m-pane__explanation code {
-  background-color: $pf-color-black-150;
-  color: $pf-color-black-600;
+  background-color: var(--pf-color-black-150);
+  color: var(--pf-color-black-600);
 }
 
 .co-pre-line {
@@ -219,7 +219,7 @@ dl.co-inline {
 }
 
 .co-error {
-  color: $pf-color-red-100;
+  color: var(--pf-color-red-100);
   white-space: nowrap;
 }
 

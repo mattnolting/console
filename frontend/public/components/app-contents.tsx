@@ -24,7 +24,7 @@ import { referenceForModel } from '../module/k8s';
 import { NamespaceRedirect } from './utils/namespace-redirect';
 
 //PF4 Imports
-import { PageSection, PageSectionVariants } from '@patternfly/react-core';
+import { DrawerContentBody, PageSection, PageSectionVariants } from '@patternfly/react-core';
 import { RoutePage, isRoutePage, useExtensions, LoadedExtension } from '@console/plugin-sdk';
 
 import CreateResource from './create-resource';
@@ -724,7 +724,7 @@ const AppContents: React.FC<{}> = () => {
   );
 
   return (
-    <div id="content">
+    <DrawerContentBody id="content">
       <PageSection
         variant={PageSectionVariants.light}
         sticky="top"
@@ -742,7 +742,7 @@ const AppContents: React.FC<{}> = () => {
           <React.Suspense fallback={<LoadingBox />}>{contentRouter}</React.Suspense>
         </PageSection>
       </div>
-    </div>
+    </DrawerContentBody>
   );
 };
 

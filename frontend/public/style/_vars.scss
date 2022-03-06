@@ -47,27 +47,25 @@ $co-m-catalog-tile-width: 260px;
 
 
 // == Colors
-
-$color-alertmanager-dark: $pf-color-orange-600;
-$color-co-m-row-hover: #fafafa;
-$color-application-dark: $pf-color-green-500;
-$color-configmap-dark: $pf-color-purple-600;
-$color-container-dark: $pf-color-blue-300;
-$color-error: $pf-color-red-100;
-$color-grey-background-border: #ccc;
-$color-ingress-dark: $pf-color-purple-700;
-$color-namespace-dark: $pf-color-green-600;
-$color-node-dark: $pf-color-purple-400;
-$color-pod-dark: $pf-color-cyan-300;
-$color-pod-overlord: $pf-color-blue-500;
-$color-primary: $pf-color-blue-300;
-$color-rbac-binding-dark: $pf-color-light-blue-500;
-$color-rbac-role-dark: $pf-color-gold-600;
-$color-secret-dark: $pf-color-orange-400;
-$color-service-dark: $pf-color-light-green-500;
-$color-text-muted: $pf-color-black-600;
-$color-text-secondary: $pf-color-black-600;
-// -- Depend on color vars defined above
+$color-alertmanager-dark: var(--pf-global--palette--orange-600);
+$color-co-m-row-hover: var(--pf-global--BackgroundColor--200);
+$color-application-dark: var(--pf-global--palette--green-500);
+$color-configmap-dark: var(--pf-global--palette--purple-600);
+$color-container-dark: var(--pf-global--palette--blue-300);
+$color-error: var(--pf-global--palette--red-100);
+$color-grey-background-border: var(--pf-global--BorderColor--100);
+$color-ingress-dark: var(--pf-global--palette--purple-700);
+$color-namespace-dark: var(--pf-global--palette--green-600);
+$color-node-dark: var(--pf-global--palette--purple-400);
+$color-pod-dark: var(--pf-global--palette--cyan-300);
+$color-pod-overlord: var(--pf-global--palette--blue-500);
+$color-primary: var(--pf-global--palette--blue-300);
+$color-rbac-binding-dark: var(--pf-global--palette--light-blue-500);
+$color-rbac-role-dark: var(--pf-global--palette--gold-600);
+$color-secret-dark: var(--pf-global--palette--orange-400);
+$color-service-dark: var(--pf-global--palette--light-green-500);
+$color-text-muted: var(--pf-global--Color--200);
+$color-text-secondary: var(--pf-global--Color--200);
 $color-alert-dark: $color-container-dark;
 $color-alertrule-dark: $color-configmap-dark;
 $color-controller-dark: $color-pod-overlord;
