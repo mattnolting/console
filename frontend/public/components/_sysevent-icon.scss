@@ -1,6 +1,6 @@
 .co-sysevent-icon {
   background-color: #fff;
-  border: solid 3px $pf-color-black-200;
+  border: var(--pf-global--BorderWidth--lg) solid var(--pf-global--BorderColor--300);
   border-radius: 50%;
   color: #fff;
   position: relative;

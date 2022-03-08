@@ -1,6 +1,6 @@
 .co-m-label {
   background-color: $pf-color-black-150;
-  border: 1px solid $pf-color-black-200;
+  border: var(--pf-global--BorderWidth--sm) solid var(--pf-global--BorderColor--300);
   border-radius: 12px;
   display: inline-flex;
   line-height: $co-m-label-line-height;
@@ -63,7 +63,7 @@ tags-input .tags {
 
 tags-input .tags.focused,
 tags-input .tags:focus {
-  border-color: #66afe9;
+  border-color: var(--pf-global--active-color--400);
   outline: none;
 }
 
@@ -130,7 +130,7 @@ tags-input .tags .input::-ms-clear {
 }
 
 tags-input.ng-invalid .tags {
-  border-color: $pf-color-red-200;
+  border-color: var(--pf-color-red-200);
 }
 
 tags-input .autocomplete {

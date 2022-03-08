@@ -362,7 +362,7 @@ $catalog-tile-width: $co-m-catalog-tile-width;
 
   &::before {
     // empty circle
-    border: 1px solid $catalog-capability-level-inactive-color;
+    border: var(--pf-global--BorderWidth--sm) solid var(--pf-global--BorderColor--200);
     border-radius: 10px;
     content: '';
     height: 14px;

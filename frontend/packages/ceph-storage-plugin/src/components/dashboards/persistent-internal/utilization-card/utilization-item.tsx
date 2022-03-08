@@ -194,7 +194,7 @@ export const UtilizationItem: React.FC<UtilizationItemProps> = React.memo(
           )}
         </div>
         <div className="co-utilization-card__item-chart">{chart}</div>
-        <hr style={{ border: '1px lightgray solid', margin: '0px' }} />
+        <hr style={{ border: 'var(--pf-global--BorderWidth--sm) solid var(--pf-global--BorderColor--100)', margin: '0px' }} />
       </div>
     );
   },

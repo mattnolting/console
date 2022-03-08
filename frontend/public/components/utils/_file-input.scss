@@ -29,7 +29,7 @@
   }
 
   .co-file-dropzone-container {
-    border: 3px solid $color-grey-background-border;
+    border: var(--pf-global--BorderWidth--sm) solid var(--pf-global--BorderColor—300);
     background: rgba(0,0,0,0.3);
     bottom: 0;
     color: #fff;
@@ -40,7 +40,7 @@
     top: 0;
     z-index: 1001;
     &.co-file-dropzone--drop-over {
-      border-color: $pf-color-blue-300;
+      border-color: var(--pf-global--active-color--300);
       color: $pf-color-blue-300;
     }
   }
