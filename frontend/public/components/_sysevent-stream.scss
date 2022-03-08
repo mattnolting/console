@@ -42,7 +42,7 @@ $color-dark-border: #ddd;
 
 .co-sysevent-stream__status-box-empty {
   border-style: solid;
-  border-color: $pf-color-black-200;
+  border-color: var(--pf-global--BorderColor—300);
   border-width: 1px 0;
 }
 
@@ -75,8 +75,8 @@ $color-dark-border: #ddd;
 
 .co-sysevent__box {
   background-color: #fff; // prevent overlapping text if events overlap each other
-  border: solid 1px $color-dark-border;
-  border-bottom-color: $pf-color-black-200;
+  border: var(--pf-global--BorderWidth--sm) solid var(--pf-global--BorderColor--100);
+  border-bottom-color: var(--pf-global--BorderColor—300);
   flex: none;
   padding: 10px;
   width: 100%;
@@ -156,7 +156,7 @@ $color-dark-border: #ddd;
 
   .co-sysevent__box {
     flex: 1 2 auto;
-    border: solid 1px $pf-color-black-200;
+    border: var(--pf-global--BorderWidth--sm) solid var(--pf-global--BorderColor--300);
     min-width: 0%; // necessary for wrapping since its a flex child
   }
 
@@ -170,8 +170,8 @@ $color-dark-border: #ddd;
   }
 
   .co-sysevent-stream__timeline {
-    border-bottom: 3px solid $pf-color-black-200;
-    border-left: 3px solid $pf-color-black-200;
+    border-bottom: var(--pf-global--BorderWidth--lg) solid var(--pf-global--BorderColor--300);
+    border-left: var(--pf-global--BorderWidth--lg) solid var(--pf-global--BorderColor--300);
     margin-left: 10px;
     &--empty {
       border: 0;
