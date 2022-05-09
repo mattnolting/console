@@ -16,6 +16,7 @@
     // temporary fix since --pf-global--FontSize--md is being computed to 14px instead of 16px
     font-size: var(--pf-global--FontSize--md);
     margin-right: var(--pf-global--spacer--sm);
+
   }
 
   &__title {
@@ -36,5 +37,12 @@
   a {
     padding-left: 0;
     text-decoration: none;
+  }
+
+}
+
+:where(.pf-theme-dark) {
+  img.odc-add-card-item__icon {
+    filter: brightness(1.5) invert(1) hue-rotate(180deg) saturate(4);
   }
 }
