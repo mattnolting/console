@@ -41,3 +41,9 @@
     padding: 5px !important;
   }
 }
+
+:where(.pf-theme-dark) {
+  img.odc-selector-card__icon {
+    filter: brightness(1.5) invert(1) hue-rotate(180deg) saturate(4);
+  }
+}

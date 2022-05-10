@@ -55,3 +55,9 @@
   flex: 1 0 auto;
   flex-direction: column;
 }
+
+:where(.pf-theme-dark) {
+  img.cos-status-box__access-denied-icon {
+    filter: brightness(1.5) invert(1) hue-rotate(180deg) saturate(4);
+  }
+}
